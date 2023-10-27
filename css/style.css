@@ -312,10 +312,7 @@ nav a:hover {
 	color: var(--terra);
 	text-align: center;
 	padding-top: 2rem;
-	padding-bottom: 2rem;
-	padding-left: 6%;
-	padding-right: 6%;
-	
+	padding-bottom: 2rem;	
 }
 
 .institucional-contato {
@@ -478,7 +475,10 @@ footer {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-evenly;
-    	align-items: center;
+    		align-items: center;
+		padding-left: 6%;
+		padding-right: 6%;
+		height: 100vh;
 	}
 
 	.institucional-contato {
@@ -486,7 +486,7 @@ footer {
 		display: flex;
 		flex-direction: column;
 		justify-content: space-evenly;
-    	align-items: center;
+    		align-items: center;
 	}
 	.contato-caixa  {
 		padding-top: 17rem;
