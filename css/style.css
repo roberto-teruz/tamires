@@ -309,10 +309,13 @@ nav a:hover {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	justify-content: center;
+	height: 100vh;
 	color: var(--terra);
 	text-align: center;
 	padding-top: 2rem;
-	padding-bottom: 2rem;	
+	padding-bottom: 2rem;
+	
 }
 
 .institucional-contato {
